@@ -139,7 +139,7 @@ public class BasicTxTest {
     }
 
     /**
-     * REQUIRES_NEW 옵션을 사용하면 물리 트랜잭션이 명확하게 분리노딘다
+     * REQUIRES_NEW 옵션을 사용하면 물리 트랜잭션이 명확하게 분리된다.
      * REQUIRES_NEW 옵션을 사용하면 데이터베이스 커넥션이 동시에 2개 사용된다는점을 주의해야한다.
      */
     @Test
